@@ -1,0 +1,27 @@
+.container {
+	padding: 0;
+	margin: 0 auto;
+	width: 640px;
+	height: 640px;
+	border: 1px solid black;
+}
+
+h1 {
+	text-align: center;
+}
+
+#div_buttons {	
+	max-width: 640px;
+	margin: 0 auto 20px auto;
+}
+
+#clear {
+	position: relative;
+	margin-left: 185px;
+	padding: 0 20px 0 20px;
+}
+
+#grid {
+	position: relative;
+	margin-left: 90px;
+}
