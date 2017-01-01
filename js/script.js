@@ -32,9 +32,7 @@ $(document).ready(function() {
 		for(var i = 0; i < count; i++) {
 			$('.container').append('<div class="grid"></div>');
 		}	
-			$('div.grid').each(function() {
-				$(this).css({'background-color': 'white', 'width': x+'px', 'height': x+'px', 'float': 'left', 'display': 'inline-block', 'position': 'relative'});
-			});
+			$('div.grid').css({'background-color': 'white', 'width': x+'px', 'height': x+'px', 'float': 'left', 'display': 'inline-block', 'position': 'relative'});
 		draw();
 	}
 	
