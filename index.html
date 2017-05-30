@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Simple Etch-A-Sketch</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Funky Etch-A-Sketch</title>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	<link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-	<header>
-		<h1>Let's Sketch!</h1>
-	</header>
+	<div id="border">
+		<header>
+			<h1>Let's Sketch!</h1>
+		</header>
 
-	<div id="div_buttons">
-		<button id="clear">Clear</button>
-		<button id="grid">Change Pixels</button>
+		<div id="div_buttons">
+			<button id="clear" class="btn">Clear</button>
+			<button id="grid" class="btn">Change Pixels</button>
+			<button id="color-btn" class="btn">Random Colors</button>
+		</div>
+
+		<div id="sketch-area">
+		</div>
 	</div>
 
-	<div class="container">
-	</div>
-
-	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
